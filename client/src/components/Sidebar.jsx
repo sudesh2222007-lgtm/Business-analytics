@@ -28,6 +28,7 @@ export default function Sidebar({ user, onLogout }) {
     <>
       {/* Far Left Slim Rail Navigation */}
       <aside className="icon-rail">
+        <div className="icon-rail-logo">B</div>
         <nav className="icon-rail-nav">
           <NavLink to="/" end className={({ isActive }) => `rail-icon-btn ${isActive ? 'active' : ''}`} title="Dashboard">
             <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>

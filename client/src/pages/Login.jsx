@@ -29,7 +29,7 @@ export default function Login({ onLogin }) {
       <div className="login-card">
         {/* Brand Header */}
         <div className="login-brand">
-          <div className="icon-rail-logo" style={{ marginBottom: 0 }}>N</div>
+          <div className="icon-rail-logo" style={{ marginBottom: 0 }}>B</div>
           <div>
             <div className="brand-title">Analitycs</div>
             <div className="brand-sub">Business Intelligence Platform</div>
